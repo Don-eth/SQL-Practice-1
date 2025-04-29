@@ -300,6 +300,8 @@ group by customers.first_name, customers.last_name
 order by sum(orders.quantity * books.price) desc
 limit 3;
 
+--THE END
+
 
 
 
